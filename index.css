@@ -1,0 +1,62 @@
+body {
+  margin: 0%;
+  padding: 0;
+}
+#header {
+  background-color: green;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+#content {
+  text-align: center;
+}
+
+#tasklist {
+  display: flex;
+  flex-direction: column;
+}
+.paragraph1 {
+  border: 1px solid black;
+  padding: 0.5% 0.5% 0.5% 2%;
+  width: 45%;
+  margin-left: 25%;
+}
+.paragraph2 {
+  width: 10%;
+  display: inline-block;
+}
+.span1 {
+  float: right;
+  margin-top: 5%;
+}
+.editbtn {
+  color: white;
+  background-color: green;
+}
+.closebtn {
+  color: white;
+  background-color: red;
+}
+@media only screen and (max-width: 400px) {
+  .paragraph1 {
+    border: 1px solid black;
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .span1 {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .paragraph1 {
+    border: 1px solid black;
+    padding: 0;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .span1 {
+    margin-top: 3.5%;
+  }
+}
